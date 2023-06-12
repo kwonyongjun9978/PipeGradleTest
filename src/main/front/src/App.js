@@ -20,7 +20,7 @@ const App = () => {
     <div className="App">
       <header>
         <img src={img1} style={{width:'200px'}}  alt='' />
-        <h1>스프링 부트/hello부터 받은 데이터 출력!!!!!112312323123</h1>
+        <h1>스프링 부트/hello부터 받은 데이터 출력</h1>
         <ul style={{listStyle: 'none'}}>
           {
             message.map((item, index) => <li key={index}>
@@ -30,7 +30,7 @@ const App = () => {
         </ul>
         <hr/>
         <section>
-          <h2>스프링 부트로 부터 받은 데이터 출력!!!!!123123213123</h2>
+          <h2>스프링 부트로 부터 받은 데이터 출력</h2>
           {
             data.map((item, index) => <li key={index}>
               { item.name } : { item.addr } : { item.age }살
