@@ -19,7 +19,7 @@ const App = () => {
   return (
     <div className="App">
       <header>
-        <img src={img1} style={{width:'200px'}} />
+        <img src={img1} style={{width:'200px'}}  alt='' />
         <h1>스프링 부트/hello부터 받은 데이터 출력!!!!!123123</h1>
         <ul style={{listStyle: 'none'}}>
           {
